@@ -1,9 +1,11 @@
 class Topico
 
-  def programa_metodo_nil
-   nome_completo = "Deividy Fritsch"
-   puts nome_completo
-   nome_completo = nil
-   puts nome_completo.nil?
+  def programa_metodo_com_exclamação
+    #variavel texto com espaço no inicio e no final
+    texto = " Meu testo completo "
+    puts texto
+    #usando .strip! para retirar os espaços da variavel
+    texto.strip!
+    puts texto
   end
 end
