@@ -1,6 +1,6 @@
 class Topico
 
-  def programa_metodo_com_exclamação
+  def programa_metodo .strip!_com_exclamação
     #variavel texto com espaço no inicio e no final
     texto = " Meu testo completo "
     puts texto
