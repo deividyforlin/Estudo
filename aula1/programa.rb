@@ -1,12 +1,9 @@
 class Topico
 
-  def programa_usando_if_e_end
-    a,b = 1,2
-    #testando if e end
-    if a > b # if = se
-      puts " A é maior que B"
-      else # else = senão
-        puts "B é maior que A"
-      end
+  def programa_usando_operador_matematico
+    puts 1 + 1
+    puts 5 - 1
+    puts 5 / 3
+    puts 3 * 6
   end
 end
