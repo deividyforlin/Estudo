@@ -1,4 +1,4 @@
-require_relative "aula1/topico"
+require_relative "aula1/programa"
 
 #Topico.new.metodo_te
-Topico.new.metodo_if
+Topico.new.programa_fazer_comentario
